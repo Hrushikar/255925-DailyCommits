@@ -1,1 +1,5 @@
-print('Hello Python!! This is your programmer!!')
+print('Hello Python!! This is your programmer!!\n')
+a = int(input("Enter a number to display: "))
+print('Entered number (a): ', end='')
+print(a, end='\n\n')
+print('Good Bye!!')
