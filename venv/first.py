@@ -2,8 +2,8 @@
 print('Hello Python!! This is your programmer!!\n')
 a = int(input("Enter a number to display: "))
 print('Entered number (a): ', end='')
-print(a, end='\n\n')
-print('Good Bye!!')
+print(a)
+print('\nGood Bye!!')
 
 # Day 2
 sum = 0
