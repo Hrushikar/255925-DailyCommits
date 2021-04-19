@@ -13,3 +13,12 @@ print('Enter the numbers to find their sum:')
 for i in range(n):
     sum += int(input())
 print('Sum: '+str(sum))
+
+#Day 3
+secret_num = 777
+n = 0
+while True:
+    n = int(input("Enter the number you guessed: "))
+    if secret_num == n:
+        break
+print("You guessed correctly. Guessed number: ",n)
