@@ -22,3 +22,21 @@ while True:
     if secret_num == n:
         break
 print("You guessed correctly. Guessed number: ", n)
+
+
+# Day 4
+def factorial(number):
+    if number == 0 or number == 1:
+        return 1
+    return number * factorial(number - 1)
+
+
+n = int(input("Enter the number to find it's factorial: "))
+print(factorial(n))
+
+
+# Day 5
+print('Enter the elements of the array in a single line, space separated, to reverse and print their sum:')
+arr = list(map(int, input().split()))
+print(arr[::-1])
+print(sum(arr))
